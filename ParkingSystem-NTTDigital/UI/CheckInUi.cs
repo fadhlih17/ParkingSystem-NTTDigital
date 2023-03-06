@@ -16,7 +16,9 @@ public class CheckInUi
         Console.Write("Create Parking Lot : ");
         int lots = int.Parse(Console.ReadLine());
 
+        Console.WriteLine();
         Console.WriteLine(_service.CreateParkingLot(lots));
+        Console.WriteLine();
     }
 
     public void InputParkingLot()
